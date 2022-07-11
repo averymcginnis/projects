@@ -1,4 +1,4 @@
-// Blinky Ring Game
+// Blinky Ring Thing
 // 12 LEDs in a ring, use switch to stop the light on the top LED to win.
 
 #define button 13
