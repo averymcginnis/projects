@@ -1,5 +1,5 @@
 # Projects
-A collection of things I have built over the years! Coding projects have code files linked above.
+A collection of some of the things I have built over the years! Coding projects have code files linked above.
 
 ## Blinky Ring Game
 Fun handheld game with the goal of stopping the rotating light at the top of the ring. PCB designed using Autodesk Eagle and ordered from JLCPCB. Logic is powered by Arduino.
