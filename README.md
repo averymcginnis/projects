@@ -15,6 +15,10 @@ Project Demo Video: https://drive.google.com/file/d/1AkeO6T75L7hI34ZVU_jAYUv_D89
 
 <img width="490" alt="chopping arm" src="https://user-images.githubusercontent.com/53913125/178171226-d397e813-a09a-4e64-b031-42acd8564302.PNG">
 
+## Infinity Mirror
+
+<img width="356" alt="infinity mirror" src="https://user-images.githubusercontent.com/53913125/178193325-edf0e1e2-795f-430f-8710-0844b35e97ba.PNG">
+
 ## Day of the Week Calculator
 Python program that outputs the day of week (Mon, Tue, Wed ...) based on a date input.
 
