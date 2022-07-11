@@ -16,3 +16,7 @@ Project Demo Video: https://drive.google.com/file/d/1AkeO6T75L7hI34ZVU_jAYUv_D89
 ## Day of the Week Calculator
 Python program that outputs the day of week (Mon, Tue, Wed ...) based on a date input.
 <img width="318" alt="day of the week" src="https://user-images.githubusercontent.com/53913125/178192178-380121f9-48a4-43b2-bce8-7670b25766a1.PNG">
+
+## Monty Hall Game
+Python program that interacts with the user to simulate the Monty Hall Problem.
+<img width="475" alt="monty hall" src="https://user-images.githubusercontent.com/53913125/178192843-65886dab-991d-43d0-a782-0e578ac152e7.PNG">
