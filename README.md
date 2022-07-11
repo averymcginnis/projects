@@ -1,6 +1,8 @@
-# Projects
+# **Projects**
 A collection of things I have built over the years!
 
-# Blinky Ring Thing
+# **Blinky Ring Thing**
+A fun handheld game with the goal of stopping the rotating light at the top of the ring. PCB designed using Autodesk Eagle and ordered from JLCPCB. Circuit logic powered by Arduino.
 
-https://user-images.githubusercontent.com/53913125/178169781-5d97dbce-b2bb-41c6-869d-2de3a549b99f.MOV
+**Project Demo Video:**
+https://drive.google.com/file/d/1KCfj9wSKQ6HeTOfEdTdKwJEoI7QJSjba/view?usp=sharing
