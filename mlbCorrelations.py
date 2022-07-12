@@ -1,20 +1,22 @@
 # Creates a graph to display correlation between 2 mlb statistics
-# Downlaod csv files from Baseball Savant
+# Downlaod csv files from Baseball Savant with 2 different stats
 
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import linregress
 from csv import reader
 
+# CSV file name
 file = str(input('Enter the file name: '))
-xVarName = str(input('What is the first variable: '))
+# Exact column heading from csv file
 xVarHeader = str(input('Enter the first variable header: '))
-xVarCol = int(input('Enter the column number of the first variable: '))
-yVarName = str(input('What is the second variable: '))
+# Exact column heading from csv file
 yVarHeader = str(input('Enter the second variable header: '))
-yVarCol = int(input('Enter the column number of the second variable: '))
 
 data = pd.read_csv(str(file))
+
+xCol = data.columns.to_list().index(xVarHeader) + 1
+yCol = data.columns.to_list().index(yVarHeader) + 1
 
 # Make a list of the x and y variables
 xVar = []
@@ -26,8 +28,8 @@ with open(str(file), 'r') as read_obj:
 		if count == 0:
 			count += 1
 			continue
-		xVar.append(float(row[xVarCol - 1]))
-		yVar.append(float(row[yVarCol - 1]))
+		xVar.append(float(row[xCol - 1]))
+		yVar.append(float(row[yCol - 1]))
 xVar.pop(0)
 yVar.pop(0)
 
@@ -41,9 +43,9 @@ data.plot.scatter(x=str(xVarHeader),y=str(yVarHeader),s=3,c='blue')
 # plt.text(61,.39,'R-value:' + str(round(importantStats[2],3)))
 
 # Format the plot
-plt.title(str(yVarName) + ' vs ' + str(xVarName),c='red')
-plt.xlabel(str(xVarName),c='red')
-plt.ylabel(str(yVarName),c='red')
+plt.title(str(yVarHeader) + ' vs ' + str(xVarHeader),c='red')
+plt.xlabel(str(xVarHeader),c='red')
+plt.ylabel(str(yVarHeader),c='red')
 
 # Show the plot
 plt.show()
