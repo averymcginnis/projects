@@ -9,9 +9,9 @@ Project Demo Video: https://drive.google.com/file/d/1KCfj9wSKQ6HeTOfEdTdKwJEoI7Q
 <img width="284" alt="blinky ring" src="https://user-images.githubusercontent.com/53913125/178170458-9f61d548-390b-426e-92a7-8513885b45a0.PNG">
 
 ## MLB Correlation Plotter
-Python program that plots correlations between 2 baseball statistics (eg. flyouts vs HR). Uses a csv file containing stats as input.
+Python program that plots correlations between 2 baseball statistics (eg. slugging % vs whiff rate). Uses a csv file containing stats as input.
 
-<img width="454" alt="correlations" src="https://user-images.githubusercontent.com/53913125/178196532-7ebe0c2f-27a3-48a1-a5d6-ad9973b03f71.PNG">
+<img width="439" alt="correlations" src="https://user-images.githubusercontent.com/53913125/178403037-fc912bf0-ff67-4d46-9455-b5509cc07bbe.PNG">
 
 ## Chopping Arm
 Proof of concept armature that converts fast rotary motion of a DC motor into slower linear motion.
